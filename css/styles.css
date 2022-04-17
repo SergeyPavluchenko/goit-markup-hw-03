@@ -7,27 +7,35 @@
     
 }
 
+
+
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
     background-color: #FFFFFF;
 }
+
 .list{
-list-style: none;
-}
-
-.header{
-    background-color: var(--head-color);
-}
-
-.text{
-    color: var(--header-text-color);
-}
-
+    list-style: none;
+    }
+    
+    .header{
+        background-color: var(--head-color);
+    }
+    
+    .text{
+        color: var(--header-text-color);
+    }
+  
 .business{
     background-color: var(--background-color);
     color: #FFFFFF;
+}
+
+.header{
+    width: 1230px;
+
 }
 
 .order{
