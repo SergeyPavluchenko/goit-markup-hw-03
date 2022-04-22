@@ -41,11 +41,17 @@ ul{
     margin: 0 auto;
 }
 
+.header .container{
+    display: flex;
+    align-items: center;
+}
+
 .list{
     list-style: none;
     }
     
 .header-list{
+    display: flex;
     background-color: var(--head-color);
 }
 
@@ -55,12 +61,11 @@ ul{
 
   
 .business{
-    
     background-color: var(--background-color);
     color: #FFFFFF;
 }
-.business .head{
-    margin-bottom: 30px;
+.business .container{
+    display: flex;
 }
 
 .section-work{
@@ -91,6 +96,17 @@ ul{
 }
 .main-list{
     margin-bottom: 50px;
+}
+
+.head{
+    max-width: 696px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    padding-top: 200px;
 }
 
 .order{
@@ -149,6 +165,7 @@ ul{
 }
 
 .header-name{
+    margin-right: 93px;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -163,15 +180,28 @@ ul{
 }
 
 .header-item{
+    margin-right: 50px;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+.header-item:not(:last-child) {
+    margin-right: 50px;
+}
 
 .header-item:hover,
 .header-item:focus{
     color: #2196F3;
+}
+
+.header-contact-list{
+    display: flex;
+    margin-left: auto;
+}
+
+.head{
+    padding-top: 200px;
 }
 
 .header-contact{
@@ -185,6 +215,10 @@ ul{
 .header-contact:hover,
 .header-contact:focus{
     color: #2196F3;
+}
+
+.tel{
+    margin-left: 50px;
 }
 
 .btn-style{
