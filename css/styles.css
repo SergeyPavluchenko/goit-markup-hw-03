@@ -64,10 +64,19 @@ ul{
     background-color: var(--background-color);
     color: #FFFFFF;
 }
-.business .container{
-    display: flex;
-}
 
+.head{
+    padding-top: 200px;
+    padding-bottom: 30px;
+    max-width: 696px;
+    margin: auto;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+}
 .section-work{
     padding-top: 94px;
     padding-bottom: 94px;
@@ -83,7 +92,14 @@ ul{
 }
 .header-team{
     margin-bottom: 50px;
-}
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--header-text-color)
+    }
 .footer-text{
     margin-top: 20px;
 }
@@ -98,27 +114,33 @@ ul{
     margin-bottom: 50px;
 }
 
-.head{
-    max-width: 696px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    padding-top: 200px;
-}
-
 .order{
+    display: block;
+    align-items: center;
+    padding-bottom: 200px;
+    margin:auto;
     width: 200px;
     height: 50px;
     left: 700px;
     top: 430px;
+    border-radius: 4px;
     background-color: #2196F3;
     color: #ffffff;
     cursor: pointer;
 }
 
+.section-work h2{
+    text-align: center;
+}
+
+.work-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-priorities{
+    max-width: 270px;
+}
 .priority{
     margin-bottom: 10px;
     font-weight: 700;
@@ -141,10 +163,33 @@ ul{
     line-height: 1.16;
     letter-spacing: 0.03em;
     color: var(--header-text-color);
+    text-align: center;
+}
+
+.list-img{
+    display: flex;
+}
+
+.img + .img{
+    margin-left: 30px;
 }
 
 .section-team{
     background-color: #F5F4FA
+}
+
+.list-team{
+    display: flex;
+    justify-content: space-between;
+}
+
+.team{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-container{
+    text-align: center;
 }
 
 .employee{
@@ -200,9 +245,7 @@ ul{
     margin-left: auto;
 }
 
-.head{
-    padding-top: 200px;
-}
+
 
 .header-contact{
     font-weight: 500;
