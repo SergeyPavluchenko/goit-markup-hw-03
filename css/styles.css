@@ -133,6 +133,10 @@ ul{
     background-color: #2196F3;
     color: #ffffff;
     cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
 }
 
 .section-work h2{
